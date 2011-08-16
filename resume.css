@@ -46,6 +46,7 @@ p.enlarge span { color: #000 }
 .first h2 { font-style: italic; }
 .last { border-bottom: 0 }
 
+.page-break { display:none; }
 
 /* //-- section styles -- */
 

@@ -1,1 +1,11 @@
 #pdf { display: none; }
+
+a:link, a:visited {
+  color: #444;
+}
+
+.job a:link:after, .job a:visited:after {
+  content: " (" attr(href) ") ";
+}
+
+.page-break { display:block; page-break-before:always; }
