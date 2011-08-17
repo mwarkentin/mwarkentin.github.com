@@ -2,11 +2,13 @@
 
 a:link, a:visited {
   color: #444;
+  text-decoration: none;
 }
 
 .job a:link:after, .job a:visited:after {
   content: " (" attr(href) ") ";
   font-size: 90%;
+  text-decoration: underline;
 }
 
 .page-break { display:block; page-break-before:always; }
