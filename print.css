@@ -6,6 +6,7 @@ a:link, a:visited {
 
 .job a:link:after, .job a:visited:after {
   content: " (" attr(href) ") ";
+  font-size: 90%;
 }
 
 .page-break { display:block; page-break-before:always; }
